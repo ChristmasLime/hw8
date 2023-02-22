@@ -22,7 +22,7 @@ public class Main {
         for (int i = 0; i < 3; i++) {
             System.out.println(b[i]);
         }
-        int[] c = {5, 9, 7, 2, 8, 3, 4, 8};
+        int[] c = {5412, 54569, 366652, 1114147, 55555};
         for (int i = 0; i < c.length; i++) {
             System.out.println("Ячейка массива номер: " + i + " равно " + c[i]);
         }
@@ -30,7 +30,7 @@ public class Main {
 
     public static void task2() {
         System.out.println("Задача 2");
-        int[] a = {5, 9, 7, 2};
+        int[] a = {1,2,3};
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i]);
             if (i!= a.length-1 ){
@@ -39,7 +39,7 @@ public class Main {
         }
         System.out.println();
 
-        int[] b = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        double[] b = {1.57, 7.654, 9.986};
         for (int i = 0; i < b.length; i++) {
             System.out.print(b[i]);
             if (i!=b.length-1){
@@ -60,7 +60,7 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3");
-        int[] a = {5, 9, 7, 2};
+        int[] a = {1,2,3};
         for (int i = a.length-1; i >= 0; i--) {
             System.out.print(a[i]);
             if (i!=0){
@@ -69,7 +69,7 @@ public class Main {
         }
         System.out.println();
 
-        int[] b = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        double[] b = {1.57, 7.654, 9.986};
         for (int i = b.length-1; i >= 0; i--) {
             System.out.print(b[i]);
             if(i!=0){
